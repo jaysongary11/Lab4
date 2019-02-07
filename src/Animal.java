@@ -139,7 +139,10 @@ public class Animal
         Animal otherAni = (Animal)other;
 
         // Check that all fields match (color, name, weight, height):
-        
+        String name = otherAni.getName();
+        String color = otherAni.getColor();
+        double weight = otherAni.getWeight();
+        double height = otherAni.getHeight();
         // TODO: finish this...
         if(name.equals(this.name) && color.equals(this.color) && 
         		weight == this.weight && height == this.height) 
